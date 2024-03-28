@@ -1,0 +1,164 @@
+/* common css start */
+:root{
+    --primary-color: #0f2f44;
+}
+*{
+    margin:0;
+    padding:0;
+    outline:0;
+    box-sizing: border-box;
+}
+
+.container{
+    width:1170px;
+    margin:auto;
+}
+.row{
+    display:flex;
+    flex-wrap: wrap;
+}
+.align-center{
+    align-items:center;
+}
+
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+.text-left{
+    text-align: left;
+}
+a{
+    font-family: "Ubuntu", sans-serif;
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+    font-family: "Ubuntu", sans-serif;
+}
+.w-50{
+    width:50%;
+}
+.w-33{
+    width:calc(100% / 3);
+}
+
+h3{
+    font-family: "Abril Fatface", serif;
+}
+
+p{
+    font-family: "Open Sans", sans-serif;
+}
+
+
+/* common css end */
+
+/* top bar start */
+#top_bar{
+    background-color: var(--primary-color);
+    color:#fefefe;
+}
+#top_bar .row{
+    justify-content: space-between;
+    font-size: 16px;
+    padding:12px;
+}
+/* top bar end */
+
+/* nav bar start */
+#nav .row{
+    justify-content: space-between;
+    align-items: center;
+    height: 95px;
+ }
+
+ #nav li a{
+    padding:0 19px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #222222;
+    transition: 0.2s;
+   
+}
+#nav li a:hover{
+     background-color:#fff9e6;
+     padding:40px 10px;
+     color:#ffc712;
+ }
+#nav .search li{
+   color: #999999;
+   transition: 0.4s;
+   border:1px solid #dedede;
+   border-radius: 50%;
+   padding:5px 10px;
+}
+#nav  .search li:hover{
+    color: #222222;
+    border:1px solid #222222;
+ }
+/* nav bar end */
+
+/* banner section start */
+#banner{
+    background-size: 100% 100%;
+    padding:80px 0;
+}
+#banner h2{
+    font-family: "Ubuntu", sans-serif;
+   font-weight:300;
+   font-size: 50px;
+   color: var(--primary-color);
+  line-height: 20px;
+}
+#banner h1{
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    color: var(--primary-color);
+    font-size: 80px;
+}
+#banner h4{
+    line-height: 20px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-size:32px;
+    letter-spacing: 18px;
+    color: #8484bf; 
+}
+#banner .banner_info p{
+     width:470px; 
+    font-size: 14px;
+    line-height: 24px;
+    color:#444444;
+    margin:30px 0;
+}
+#banner .buttons a{
+    background-color: #8484bf;
+    padding:15px 20px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 5px;
+    margin-right:20px;
+    transition: 0.5s;
+}
+#banner .buttons a:hover{
+    color: #222222;
+}
+#banner .buttons button{
+    padding:15px 23px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    border: none;
+    color: #8484bf;
+    transition: 0.5s;
+}
+#banner .buttons button:hover{
+    color: #ffffff;
+    background-color: #8484bf;
+} 
+/* banner section end */
+
+ 
